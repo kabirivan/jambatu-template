@@ -1,0 +1,80 @@
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.production
+
+# Directorios de WordPress
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Archivos de WordPress
+wp-config.php
+wp-config-local.php
+wp-config-production.php
+wp-config-staging.php
+
+# Archivos de log
+*.log
+logs/
+error_log
+debug.log
+
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Directorios de plugins y temas (opcional - descomenta si no quieres versionar)
+# wp-content/plugins/
+# wp-content/themes/
+
+# Archivos de base de datos
+*.sql
+*.sql.gz
+*.sql.bz2
+
+# Archivos de backup
+*.bak
+backup-*
+*-backup-*
+
+# Directorios de Docker
+.docker/
+docker-data/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de Node.js (si usas herramientas de build)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de Composer (si usas Composer para plugins)
+vendor/
+composer.lock
+
+# Archivos de cache
+cache/
+*.cache
